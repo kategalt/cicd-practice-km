@@ -4,7 +4,7 @@ stages {
   
     stage('build') {
   steps {
-    sh 'pip3 install xmlrunner'
+    sh 'pip install xmlrunner'
   }
 }
     stage ('Test'){
