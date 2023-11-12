@@ -4,7 +4,7 @@ stages {
   
     stage ('Test'){
         steps {
-            sh 'python tests_junit.py'
+            sh 'python3 tests_junit.py'
         }
     }
 }
